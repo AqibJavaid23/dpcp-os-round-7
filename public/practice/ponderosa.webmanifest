@@ -1,0 +1,20 @@
+{
+  "name": "Ponderosa Team",
+  "short_name": "Ponderosa",
+  "start_url": "/practice/ponderosa/",
+  "display": "standalone",
+  "background_color": "#f7f1e6",
+  "theme_color": "#1f6b4a",
+  "icons": [
+    {
+      "src": "/brand/logos/app-icons/pwa-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/brand/logos/app-icons/pwa-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

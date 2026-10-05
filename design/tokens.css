@@ -1,0 +1,66 @@
+/* Round 3 design tokens. One change here reaches every screen that uses these variables.
+   Shama's daily notes live in docs/design-guidelines.md. */
+
+:root {
+  --r3-space: 8px;
+  --r3-radius: 14px;
+  --r3-radius-card: 16px;
+  --r3-shadow: 0 8px 30px rgba(18, 59, 120, 0.06);
+  --r3-max: 1100px;
+  --r3-motion: 220ms;
+  --r3-ease: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --r3-title: 2rem;
+  --r3-headline: 1.25rem;
+  --r3-body: 1rem;
+  --r3-caption: 0.75rem;
+  --r3-green: #157a45;
+  --r3-green-bg: #e7f6ee;
+  --r3-amber: #8a5a00;
+  --r3-amber-bg: #fbf3d5;
+  --r3-red: #c4322b;
+  --r3-red-bg: #fdeceb;
+  --r3-blue: #0081ce;
+  --r3-blue-bg: #e7f4fc;
+  --r3-gray: #5e6570;
+  --r3-gray-bg: #eef0f3;
+  --r3-navy: #123b78;
+  --r3-deep: #0b254b;
+  --r3-tint: #bfd0e8;
+  --r3-surface: #ffffff;
+  --r3-canvas: #f6f7f9;
+  --r3-ink: #1b1b21;
+}
+
+html.dpcp-dark {
+  --background: #0b254b;
+  --foreground: #f4f7fb;
+  --card: #123050;
+  --card-foreground: #f4f7fb;
+  --popover: #123050;
+  --popover-foreground: #f4f7fb;
+  --muted: #16365c;
+  --muted-foreground: #c5d0de;
+  --border: rgba(191, 208, 232, 0.2);
+  --dpcp-navy: #e7eef8;
+  --r3-surface: #123050;
+  --r3-canvas: #0b254b;
+  --r3-ink: #f4f7fb;
+  --r3-shadow: 0 8px 30px rgba(0, 0, 0, 0.28);
+  color-scheme: dark;
+}
+
+html.dpcp-dark .bg-white {
+  background-color: var(--r3-surface);
+}
+
+html.dpcp-dark .text-dpcp-navy {
+  color: var(--dpcp-navy);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .r3-motion,
+  .r3-motion * {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

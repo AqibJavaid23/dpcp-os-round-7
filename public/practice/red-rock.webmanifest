@@ -1,0 +1,20 @@
+{
+  "name": "Red Rock Team",
+  "short_name": "Red Rock",
+  "start_url": "/practice/red-rock/",
+  "display": "standalone",
+  "background_color": "#f7f1e6",
+  "theme_color": "#1f6b4a",
+  "icons": [
+    {
+      "src": "/brand/logos/app-icons/pwa-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/brand/logos/app-icons/pwa-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

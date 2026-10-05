@@ -1,0 +1,17 @@
+---
+description: DPCP OS prototype rules for any Cursor agent
+alwaysApply: true
+---
+
+DPCP OS is HBS's internal operating app. This repo is a clickable prototype George reviews screen by screen.
+
+- Read AGENTS.md and docs/DECISIONS.md before changing product behavior.
+- Prototype first. Do not add Supabase, auth, or live connectors until George has approved the screen.
+- No PHI in core DPCP OS. No real staff names, clients, or mailboxes in the UI.
+- Fake data lives in lib/seed.ts and is changed only through lib/store.tsx. Screens use useApp().
+- Brand: navy #123B78 primary, blue #0081CE for buttons and links, deep navy #0B254B for dark surfaces and the PWA theme, tint #BFD0E8 for accents. HBS red #B6101A only on the "Powered by Hariri Business Services" credit.
+- Use the logos in public/brand. Do not put hdg-practices logos in the app chrome.
+- Montserrat for headings, Geist for body.
+- Status color only for status: green, amber, red, blue.
+- Match button labels to docs/screen-specs-v2.md.
+- Keep npm run build passing.
